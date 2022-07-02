@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Century Gothic;    
+    /*background-image: url(https://i.imgur.com/5DzbdOH.png);   */
+    
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+
+  h1{
+    font-family: Century Gothic;    
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 35px;
+  }
+
+  p{
+      font-size: 25px;
+  }
+
+  #description{
+    font-family: verdana;
+    margin: 1% 5% 5% 5%;
+  }
+  
+  #container{
+    border-radius: 25px;      
+    background-color: rgba(43, 58, 103, 80%);  
+    margin: auto;    
+    width: 50%;    
+    padding: 10px;
+  }
+  
+  #part{
+    border-radius: 10px; 
+    margin: 1% 5% 5% 5%;
+    background-color: rgba(43, 58, 103, 80%);    
+    padding: 2% 5% 2% 5%;
+    
+  }
+  
+  input{
+    border-radius: 5px; 
+    height: 30px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;    
+    font-size: 25px;
+  }
+
+  label{
+    font-size: 25px;  
+    margin: 0 auto;  
+  }
+
+
+  table {    
+    margin-left:auto; 
+    margin-right:auto;
+    text-align:center;
+  }
+
+  select {
+    font-size: 25px;
+    display: block;        
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align:center;
+  }
+
+  textarea{
+      width: 100%;
+      height: 75px;
+      font-size: 25px;
+      text-align:center;
+  }

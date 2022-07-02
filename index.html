@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>        
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset id="container">
+        <h1 id="title">Form to be a staff member</h1>
+        <p id="description">If you are interested in becoming a staff member of our community, please fill this form and we will contact you as soon as possible!</p>
+        <form id="survey-form">
+            <h2>Personal information</h2>
+            <fieldset id="part">                
+                <label id="name-label">Enter Your First Name: 
+                    <input id="name" type="text" placeholder="name" required />
+                </label>
+
+                <label id="surname-label">Enter your Surname: 
+                    <input id="surname" type="text" placeholder="surname" required />
+                </label>
+
+                <label id="surname-label">Enter Your Discord tag (username#XXXX): 
+                    <input id="surname" type="text" placeholder="discord tag" required />
+                </label>
+
+                <label id="email-label">Enter Your Email: 
+                    <input id="email" type="email" placeholder="email" required />
+                </label>
+                <! Error HTML5 pel correo ––> 
+
+                <label id="number-label">Enter your age (+16 required): 
+                <input id="number" type="number" placeholder="age" min="0" max="99"/>
+            </fieldset>
+
+            <h2>Department information</h2>
+            <fieldset id="part">                
+                <label id="department"> In which department are you interested?</label>
+                <select id="dropdown">
+                    <option>Departments</option>
+                    <option>Verifier</option>
+                    <option>Moderator</option>
+                    <option>Programmer</option>
+                    <option>Administrator</option>                
+                </select>                
+            </fieldset>            
+
+            <h2>Experience information</h2>
+            <fieldset id="part">                
+                <p> How long have you been in our community? </p>
+                <table>
+                    <tr>
+                        <td><label><input id="in" type="radio" name="in-out" value="indoor" checked>< 6 months</label></td>
+                        <td><label><input id="out" type="radio" name="in-out" value="outdoor">6 months - 1 year</label></td>
+                        <td><label><input id="out" type="radio" name="in-out" value="outdoor">1 - 2 years</label></td>
+                        <td><label><input id="out" type="radio" name="in-out" value="outdoor">> 2 years</label></td>
+                    </tr>                                                                                
+                </table>
+                
+                <p> Which of these skills do you think you have?</p>                                    
+                <table>
+                    <tr>
+                        <td>
+                            <input id="conflict-resolution" type="checkbox" name="skills" value="conflict-resolution" checked> 
+                            <label for="conflict-resolution">Conflict resolution</label>
+                        </td>
+                    
+                        <td>
+                            <input id="leadership" type="checkbox" name="skills" value="leadership"> 
+                            <label for="leadership">Leadership</label>
+                        </td>
+
+                        <td>
+                            <input id="organization" type="checkbox" name="skills" value="organization"> 
+                            <label for="organization">Organization</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="team-working" type="checkbox" name="skills" value="team-working"> 
+                            <label for="team-working">Team working</label>
+                        </td>
+
+                        <td>
+                            <input id="creativity" type="checkbox" name="skills" value="creativity"> 
+                            <label for="creativity">Creativity</label>
+                        </td>
+
+                        <td>
+                            <input id="" type="checkbox" name="skills" value="versatility"> 
+                            <label for="versatility">Versatility</label>  
+                        </td>
+
+                    </tr>
+                </table>                                
+            </fieldset>        
+
+            <h2>Extra</h2>
+            <fieldset id="part">
+                <! ADDITIONAL COMMENTS -->
+                <p>Any relevant information</p> 
+                <textarea id="add-comments" type="textarea"></textarea>
+                
+            </fieldset>
+
+            <button id="submit">Submit
+            </button>
+        </form>
+    </fieldset>    
+</body>
+
+</html>
