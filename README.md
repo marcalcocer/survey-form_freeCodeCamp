@@ -1,7 +1,10 @@
 # Survey Form - FreeCodeCamp.com
+This is a fictitious document which simulates to be a survey form to become a staff member of a community.
+
 Survey form project - Responsive Web Design Certification Project
 
-Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
+https://www.freecodecamp.org/
+
 
 # Usage
 https://marcalcocer.github.io/survey-form_freeCodeCamp/
