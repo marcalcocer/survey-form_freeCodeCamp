@@ -18,7 +18,7 @@ body{
   }
 
   p{
-      font-size: 25px;
+      font-size: 25px;      
   }
 
   #description{
@@ -27,7 +27,9 @@ body{
   }
   
   #container{
-    border-radius: 25px;      
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;      
     background-color: rgba(43, 58, 103, 80%);  
     margin: auto;    
     width: 50%;    
@@ -35,11 +37,17 @@ body{
   }
   
   #part{
-    border-radius: 10px; 
+    border-radius: 10px;    
+    border-style: solid;
+    border-color: black;
     margin: 1% 5% 5% 5%;
-    background-color: rgba(43, 58, 103, 80%);    
-    padding: 2% 5% 2% 5%;
-    
+    background-color: rgba(43, 58, 103, 80%);
+    padding: 2% 5% 2% 5%;    
+    border-style: solid;
+  }
+
+  #part p{
+    margin-top: -0.25%;
   }
   
   input{
@@ -77,4 +85,21 @@ body{
       height: 75px;
       font-size: 25px;
       text-align:center;
+  }
+
+  button{
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    width: 20%;    
+    font-size: 23px;
+    background: rgba(43, 58, 103, 80%);
+
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px; 
+
+
+    color: white;
   }
